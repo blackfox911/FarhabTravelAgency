@@ -131,7 +131,7 @@ body { background: var(--white); }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 1px; }
 
 .btn {
   color: var(--white);
@@ -160,8 +160,8 @@ body { background: var(--white); }
 .h1,
 .h2,
 .h3 {
-  font-weight: var(--fw-800);
-  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-200);
+  font-family: var(--ff-futura-PT);
   text-transform: uppercase;
 }
 
