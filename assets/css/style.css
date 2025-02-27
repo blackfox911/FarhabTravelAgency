@@ -398,6 +398,7 @@ margin-top: ;}
   display: grid;
   place-items: center;
   min-height: 600px;
+  width: 100;
   text-align: center;
   padding-top: 125px;
 }
