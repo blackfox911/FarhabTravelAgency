@@ -160,7 +160,7 @@ body { background: var(--white); }
 .h1,
 .h2,
 .h3 {
-  font-weight: var(--fw-800);
+  font-weight: var(--fw-200);
   font-family: var(--ff-montserrat);
   text-transform: uppercase;
 }
