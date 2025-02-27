@@ -131,7 +131,8 @@ body { background: var(--white); }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 15px; 
+margin-top: ;}
 
 .btn {
   color: var(--white);
@@ -230,9 +231,22 @@ body { background: var(--white); }
 
 .header.active .header-top {
   position: fixed;
-  background: var(--gunmetal);
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bright-navy-blue);
+  color: var(--white);
+  box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
+  transition: var(--transition);
 }
 
+.header.active .navbar-link { color: var(--white); }
+
+.header.active .navbar-link:is(:hover, :focus) { 
+  color: var(--cultured);
+  opacity: 0.8;
+}
 .header-top .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -266,7 +280,7 @@ body { background: var(--white); }
 .search-btn,
 .nav-open-btn {
   font-size: 30px;
-  color: inherit;
+  color: white;
 }
 
 .search-btn { font-size: 20px; }
@@ -334,7 +348,7 @@ body { background: var(--white); }
   color: var(--bright-navy-blue);
 }
 
-.nav-close-btn ion-icon { --ionicon-stroke-width: 80px; }
+.nav-close-btn ion-icon { --ionicon-stroke-width: 80px;  }
 
 .navbar-list { border-top: 1px solid hsla(0, 0%, 0%, 0.1); }
 
